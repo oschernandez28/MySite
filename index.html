@@ -115,8 +115,16 @@
       }
 
 
-      .icon:hover {
-        color: #65fe08;
+      .icon svg {
+        width: 24px;
+        height: 24px;
+        stroke: white;
+        transition: stroke 0.3s ease, transform 0.2s ease;
+      }
+
+      .icon:hover svg {
+        stroke: #65fe08;
+        transform: scale(1.1);
       }
 
       @media only screen and (max-width: 768px) {
@@ -182,11 +190,19 @@
               complement academic pursuits. Eager to contribute technical expertise and 
               academic achievements to innovative projects and opportunities.<br>
               <div class="socials">
-                <a href="#" class="icon" data-feather="github"></a>
-                <a href="#" class="icon" data-feather="linkedin"></a>
-                <a href="#" class="icon" data-feather="instagram"></a>
-                <a href="#" class="icon" data-feather="x"></a>
-              </div>
+                <a href="https://github.com/oschernandez28" class="icon" target="_blank" rel="noopener noreferrer">
+                  <i data-feather="github"></i>
+                </a>
+                <a href="https://linkedin.com/in/oscar-hernandez-72a12819a/" class="icon" target="_blank" rel="noopener noreferrer">
+                  <i data-feather="linkedin"></i>
+                </a>
+                <a href="https://instagram.com/osc.hdz" class="icon" target="_blank" rel="noopener noreferrer">
+                  <i data-feather="instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/oscar.hernandezgonzalez.12" class="icon" target="_blank" rel="noopener noreferrer">
+                  <i data-feather="facebook"></i>
+                </a>
+              </div>                
             </p>
           </div>
         </div>
