@@ -70,7 +70,24 @@
           gap: 7rem;
         }
       }
+      .button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+      }
 
+      .button:hover {
+        background-color: #65fe08;
+      }
       .profile {
         grid-column: 1 / -1;
         margin-bottom: 2rem;
@@ -146,7 +163,9 @@
       }
 
       .socials {
-        margin-top: 1rem;
+        display:flex;
+        margin-top:1rem;
+        gap:1.5rem;
       }
 
       .main_title {
@@ -202,7 +221,13 @@
                 <a href="https://www.facebook.com/oscar.hernandezgonzalez.12" class="icon" target="_blank" rel="noopener noreferrer">
                   <i data-feather="facebook"></i>
                 </a>
-              </div>                
+                <a href="mailto:oscar.hernandez90@csu.fullerton.edu" class="icon" target="_blank" rel="noopener noreferrer">
+                  <i data-feather="mail"></i>
+                </a>
+              </div>
+            <div>
+              <a href="resume.pdf" download class="button">Download Resume</a>
+            </div>                
             </p>
           </div>
         </div>
